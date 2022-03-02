@@ -17,7 +17,7 @@ architecture.
 ## Solution
 To fix this, we need to push the implementation of data security back to the data serving endpoints made
 available by producers. This is feasible with bespoke API endpoints (REST/GQL), but realistically, for
-very large-scale datasets this does not make sense. In this realm we currently expose data using an
+very large-scale datasets such protocols and approaches do not make sense. In this realm we currently expose data using an
 object store model (S3/GCS); this is sufficient for coarse-grained database and table access controls.
 However, column, row, cell, and sub-cell access controls are real requirements, and these are not
 satisfied by object stores. To address this we propose introducing a new integration layer fulfilled
