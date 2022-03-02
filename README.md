@@ -6,7 +6,7 @@ Provide a common data access/mutation layer where cross-cutting security concern
 
 ## Problem
 One of the positive outcomes of the data mesh architecture is the greater ability for data to be shared
-across organisations and to be consumed in ways dictated but the consumers and not the producers. However,
+across organisations and to be consumed in ways dictated by the consumers and not the producers. However,
 this desire highlights key security deficiencies that exist today in our data platforms. To date,
 fine-grained data security is implemented at the edge — at the point of consumption. In world of
 heterogeneous consumers that means it is implemented multiple times with inevitable divergence. For a
