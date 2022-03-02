@@ -28,6 +28,11 @@ and also richer capabilities such as data masking, redaction, and obfuscation.
 ## Architecture
 ![](doc/high-level-architecture.png)
 
+## Prior Art
+* [Fybrik](https://github.com/fybrik/arrow-flight-module)
+* [Flight Spark](https://github.com/rymurr/flight-spark-source)
+* [Graphique](https://github.com/coady/graphique)
+
 ## References
 * [Apache Arrow Flight](https://arrow.apache.org/docs/format/Flight.html)
 * [Apache Iceberg](https://iceberg.apache.org)
